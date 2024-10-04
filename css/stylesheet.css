@@ -1,0 +1,139 @@
+body {
+    background-color: lightblue;
+    margin: 12px;
+}
+
+
+
+#nonCenter {
+    text-align: right;
+    color: green;
+}
+
+p.centerH1 {
+    text-align: right;
+    color: yellowgreen;
+}
+
+
+.secondPara {
+    color: black;
+    /* margin: 12px; */
+    /* display:inline; */
+
+}
+
+.stockPhoto1{
+    border-radius: 12px;
+    
+    /* display: inline; */
+}
+
+h1 { 
+    /* background-color: rgb(53, 119, 173); */
+    /* opacity: 0.3; */
+    /* border-style: solid; */
+    border-width: 5px;
+    border-color: rgb(0, 0, 0);
+    border-radius: 12px;
+    margin-bottom: 50px;
+    padding: 25px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    text-align: center;
+}
+h3{
+    /* margin: 12px; */
+    /* padding: 2em; */
+}
+
+nav{
+    background-color: rgb(68, 141, 201);
+    border-radius: 12px;
+    /* padding: 8px; */
+    font-size: 30px;
+    display: flex;
+    text-align: center;
+    order: 4;
+    flex-grow: 4;
+
+}
+.firstNav{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    border-right-style: solid;
+    flex: inherit;
+    border-radius: 12px 0 0 12px;
+}
+.secondNav{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    border-right-style: solid;
+    flex: inherit;
+    border-radius: 0 0 0 0;
+}
+.thirdNav{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    border-right-style: solid;
+    flex: inherit;
+    border-radius: 0 0 0 0;
+}
+.fourthNav{
+    color: black;
+    padding: 8px;
+    text-decoration: none;
+    border-color: black;
+    border-width: 3px;
+    flex: inherit;
+    border-radius: 0 12px 12px 0;
+}
+
+.selected{
+    background-color: rgba(50, 110, 158);
+    /* border-radius: inherit; */
+}
+
+/* div {
+    background-color: rgb(68, 141, 201);
+    border-radius: 12px;
+    margin: 12px;
+} */
+
+.container{
+    display: flex;
+    
+    background-color: rgb(68, 141, 201);
+    border-radius: 12px;
+    margin: 12px;
+}
+.ourTeam{
+    display: flex;
+    flex-grow: 4;
+    margin: 30px;
+}
+
+.ole{
+    margin: 12px;
+}
+.eiline{
+    margin: 12px;
+}
+.maeve{
+    margin: 12px;
+}
+.paul{
+    margin: 12px;
+}
